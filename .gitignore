@@ -25,6 +25,7 @@ dist-ssr
 
 # security file
 .env
+package-lock.json
 
 # react
 .DS_*
