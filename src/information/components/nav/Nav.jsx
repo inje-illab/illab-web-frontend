@@ -15,7 +15,8 @@ const Nav = () => {
     const [menuToggle, setMenuToggle] = useState(false);
 
     return (
-        <nav>
+        <nav className="fixed w-full  bg-[#F1F4F9] bg-opacity-95">
+        {/* <nav> */}
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between">
                     {/* 기본 */}
@@ -44,7 +45,7 @@ const Nav = () => {
             </div>
 
             {/* mobile menu items */}
-            <div className={classNames("md:hidden", {hidden : !menuToggle})}>
+            <div className={classNames("md:hidden flex flex-col gap-2", {hidden : !menuToggle})}>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/personnel")} menuText={"인원"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/history")} menuText={"연혁"}></NavMobileMenu>
