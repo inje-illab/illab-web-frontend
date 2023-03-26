@@ -24,10 +24,10 @@ const Nav = () => {
                         <IllabRect onClick={()=>handleClickMenuBtn("/")} className="md:h-10 h-8 hover:cursor-pointer"></IllabRect>
                     </div>
                     <div className="hidden md:flex items-center space-x-6">
-                        <NavMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMenu>
+                        {/* <NavMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMenu>
                         <NavMenu onClick={()=>handleClickMenuBtn("/personnel")} menuText={"인원"}></NavMenu>
                         <NavMenu onClick={()=>handleClickMenuBtn("/history")} menuText={"연혁"}></NavMenu>
-                        <NavMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMenu>
+                        <NavMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMenu> */}
                         <NavMenu onClick={()=>handleClickMenuBtn("/application")} menuText={"지원"}></NavMenu>
                     </div>
 
@@ -46,10 +46,10 @@ const Nav = () => {
 
             {/* mobile menu items */}
             <div className={classNames("md:hidden flex flex-col gap-2", {hidden : !menuToggle})}>
-                <NavMobileMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMobileMenu>
+                {/* <NavMobileMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/personnel")} menuText={"인원"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/history")} menuText={"연혁"}></NavMobileMenu>
-                <NavMobileMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMobileMenu>
+                <NavMobileMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMobileMenu> */}
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/application")} menuText={"지원"}></NavMobileMenu>
             </div>
         </nav>
