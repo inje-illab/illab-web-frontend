@@ -15,19 +15,19 @@ const Nav = () => {
     const [menuToggle, setMenuToggle] = useState(false);
 
     return (
-        <nav className="fixed w-full  bg-[#F1F4F9] bg-opacity-95">
+        <nav className="fixed top-0 z-50 w-full h-20 bg-white">
         {/* <nav> */}
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="mx-auto px-4">
                 <div className="flex justify-between">
                     {/* 기본 */}
                     <div className="flex items-center py-5">
                         <IllabRect onClick={()=>handleClickMenuBtn("/")} className="md:h-10 h-8 hover:cursor-pointer"></IllabRect>
                     </div>
                     <div className="hidden md:flex items-center space-x-6">
-                        {/* <NavMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMenu>
+                        <NavMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMenu>
                         <NavMenu onClick={()=>handleClickMenuBtn("/personnel")} menuText={"인원"}></NavMenu>
                         <NavMenu onClick={()=>handleClickMenuBtn("/history")} menuText={"연혁"}></NavMenu>
-                        <NavMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMenu> */}
+                        <NavMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMenu>
                         <NavMenu onClick={()=>handleClickMenuBtn("/application")} menuText={"지원"}></NavMenu>
                     </div>
 
@@ -46,10 +46,10 @@ const Nav = () => {
 
             {/* mobile menu items */}
             <div className={classNames("md:hidden flex flex-col gap-2", {hidden : !menuToggle})}>
-                {/* <NavMobileMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMobileMenu>
+                <NavMobileMenu onClick={()=>handleClickMenuBtn("/introduction")} menuText={"소개"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/personnel")} menuText={"인원"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/history")} menuText={"연혁"}></NavMobileMenu>
-                <NavMobileMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMobileMenu> */}
+                <NavMobileMenu onClick={()=>handleClickMenuBtn("/record")} menuText={"기록"}></NavMobileMenu>
                 <NavMobileMenu onClick={()=>handleClickMenuBtn("/application")} menuText={"지원"}></NavMobileMenu>
             </div>
         </nav>

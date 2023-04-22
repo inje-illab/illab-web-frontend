@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavMobileMenu = ({onClick, menuText}) => {
     return (
-        <div onClick={onClick} className="hover:cursor-pointer block py-2 px-4 text-sm">
+        <div onClick={onClick} className="block py-2 px-4 text-sm hover:cursor-pointer ">
             {menuText}
         </div>
     );
