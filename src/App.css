@@ -1,0 +1,25 @@
+.vertical-animation > div {
+    animation: text-rolling 10s infinite;
+}
+
+@keyframes text-rolling {
+    25% {
+        transform: translateY(-100%);
+    }
+
+    40% {
+        transform: translateY(-200%);
+    }
+
+    55% {
+        transform: translateY(-300%);
+    }
+
+    70% {
+        transform: translateY(-400%);
+    }
+
+    95% {
+        transform: translateY(0%);
+    }
+}
