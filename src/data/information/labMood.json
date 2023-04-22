@@ -1,0 +1,38 @@
+{
+    "list" : [
+        {
+            "title" : "CRIL",
+            "descriptionKR" : "협업 연구와 독립적인 학습을 함께",
+            "descriptionUS" : "Collaborative Research and Independent Learning", 
+            "detailDescrip" : [
+                "서로 다른 배경과 전문성을 가진 사람들이", 
+                "함께 연구하고 지식을 공유하는 방식을 추구합니다."
+            ],
+            "tags" : "#협업 #개인학습",
+            "textColorCode" : "text-[#EFB904]",
+            "borderColorCode" : "border-[#EFB904]"
+        }, {
+            "title" : "PIL",
+            "descriptionKR" : "이론을 넘어 현실로",
+            "descriptionUS" : "Project-based Inquiry Learging", 
+            "detailDescrip" : [
+                "프로젝트 기반 문제 해결 학습을 통해,",
+                "직접 해결하며 개발자의 소통 방법을 습득할 수 있습니다."
+            ],
+            "tags" : "#프로젝트 #개발소통",
+            "textColorCode" : "text-[#D8705F]",
+            "borderColorCode" : "border-[#D8705F]"
+        }, {
+            "title" : "IRIL",
+            "descriptionKR" : "적극적인 참여를 통한 상호작용",
+            "descriptionUS" : "Interactive Research and Inquiry-based Learning", 
+            "detailDescrip" : [
+                "문제를 해결하기 위한 질문을 직접 제시/참여하고,", 
+                "활발한 활동을 통해 학습 효과를 극대화하고자 합니다."
+            ],
+            "tags" : "#상호작용 #질문중심",
+            "textColorCode" : "text-[#0BA7A0]",
+            "borderColorCode" : "border-[#0BA7A0]"
+        }
+    ]
+}

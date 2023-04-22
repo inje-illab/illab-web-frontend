@@ -7,7 +7,7 @@ const Information = () => {
     return (
         <div>
             <Nav></Nav>
-            <div>
+            <div className="mt-20">
                 <Outlet />
             </div>
             <Footer></Footer>
