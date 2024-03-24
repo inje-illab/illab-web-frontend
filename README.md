@@ -1,9 +1,5 @@
-# illab-web-frontend
+# Memoirs Jekyll Theme
 
-## 🔭 Tech List
-- React 18.2.0
-- Vite 4.2.0
-- Tailwind 3.2.7
+[Live Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/) | [Docs & Download](https://bootstrapstarter.com/jekyll-theme-memoirs/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
 
-## 🌐 Reference
-- [Tailwindcss Offical Docs](https://tailwindcss.com/)
+![memoirs](https://bootstrapstarter.com/assets/img/themes/memoirs-jekyll.jpg)
