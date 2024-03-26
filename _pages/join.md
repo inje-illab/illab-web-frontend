@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact
+title: Join
+permalink: /join
 comments: false
 ---
 
