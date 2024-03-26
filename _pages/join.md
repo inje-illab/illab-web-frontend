@@ -5,16 +5,23 @@ permalink: /join
 comments: false
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
-<input class="btn btn-dark" type="submit" value="Send">
-</form>
+이번 2024년 상반기 신규 학부연구생을 모집합니다.
+
+<br>
+
+### 모집 정보
+
+1. 일시 : 3월 25일(월) ~ 3월 31일(일) 23시 59분까지
+2. 내용 : 개인정보 및 지원 동기/학습 희망 방향 내용 등 10개의 내용 제출
+3. 면접 : 별도 안내 (4월 3일(수) 예정)
+4. 참조 : 접수 일시 내 제출된 내용에 한정으로 유효합니다. 시간 엄수해주세요.
+
+<a href="https://forms.gle/hkKCTevAvMsXR9VG9" target="_blank"><button type="button" class="btn btn-info w-100">지원하기</button></a>
+
+<br>
+
+### 자주 묻는 질문
+- <b>illab은 어디에 위치해있나요?</b><br>컴퓨터공학 건물인 장영실관(E동) 112-B호실에 위치해있습니다.
+- <b>illab엔 누구든 지원할 수 있나요?</b><br>인제대학교 컴퓨터공학 1,2학년 재학생이라면 누구든 지원하실 수 있습니다.
+- <b>illab에서는 어떤 개발을 할 수 있나요?</b><br>아이엘랩은 개인의 선택을 존중합니다. Web/App/AI/ML/Server/DB 등 원하는 공부는 무엇이든 할 수 있습니다. 학기 중에는 학과 수업에 집중하며, 정기 스크럼/세미나를 통해 혼자 해결하기 힘든 학습을 나누고 있습니다. 개발 뿐만이 다양한 툴을 사용하거나 개발방법, Github, 인턴, 동아리 등의 다양한 경험을 권장하고 공유하고 있습니다.
+- <b>illab에서는 어떤 것을 제공받을 수 있나요?</b><br>물리적인 환경으로는 학습할 수 있는 공간, 책상, 의자, 책, 프린터기, 냉장고, 전공서적 등이 있습니다. 학습 환경으로는 개인 주도적으로 진행하는 개인 학습과 재학생내에서 진행하는 활동, 현직 개발자인 졸업자들과 소통할 수 있는 다양한 환경이 준비되어있습니다.

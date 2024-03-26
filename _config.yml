@@ -1,7 +1,7 @@
 # Site
 name: "illab"
 title: "illab"
-description: "프로젝트 기반의 협업 학습 연구실, illab"
+description: "illab Tech Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 #google_analytics: 'UA-xxxxxxxx-1'
@@ -14,6 +14,28 @@ email: inje.illab@gmail.com
 # Authors
 # type : student(재학생), graduate(졸업생), professor(교수님)
 authors:
+  Dongmin:
+    name: Dongmin
+    display_name: "고동민"    
+    avatar: "https://avatars.githubusercontent.com/u/50660440"
+    #email: 
+    web: https://coding-study00.tistory.com/
+    # twitter: https://twitter.com/wowthemesnet
+    github: https://github.com/Gdm0714
+    # description: ""
+    type: "student"
+    
+  Junhyeok:
+    name: Junhyeok
+    display_name: "전준혁"    
+    avatar: "https://avatars.githubusercontent.com/u/65655340"
+    # email: 
+    # web: https://www.wowthemes.net
+    # twitter: https://twitter.com/wowthemesnet
+    github: https://github.com/Good-jjun
+    #description: ""
+    type: "student"
+
   Hyeona:
     name: Hyeona
     display_name: "당현아"    

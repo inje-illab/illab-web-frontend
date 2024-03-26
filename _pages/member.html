@@ -5,6 +5,7 @@ permalink: /member
 comments: false
 ---
 <div class="list-authors mt-5">
+    <p>현재 약 20여명(재학 + 졸업생)의 인원이 있으며,<br>홈페이지 개편으로 순차적으로 업데이트 될 예정입니다.</p>
 {% for author in site.authors %}   
     <div id="{{ author[1].name }}" class="authorbox position-relative pb-5 pt-5 mb-4 mt-4 border">   
         <div class="row">
@@ -38,8 +39,8 @@ comments: false
             </div>
             <div class="col-md-9">
                 <h3>{{ author[1].display_name }} 
-                    {% if author[1].type == "student" %}🎒{% endif %}
-                    {% if author[1].type == "graduate" %}💼{% endif %}
+                    {% if author[1].type == "student" %}🏫{% endif %}
+                    {% if author[1].type == "graduate" %}🎓{% endif %}
                     {% if author[1].type == "professor" %}👨🏻‍🏫{% endif %}
                 </h3>
                 <p class="mt-3 mb-0">{{ author[1].description }}</p> 
